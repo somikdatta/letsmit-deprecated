@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#logo{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+#logo-link{
+  text-decoration: none;
+}
+#logo-link > p{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family:HelveticaLight,sans-serif;
+  font-size:1.7em;
+  color: #222;
+  cursor: pointer;
+}
+#login-target-inner {
+position: absolute;
+display: flex;
+flex-direction: column;
+height: auto;
+width: auto;
+margin: auto;
+top: 50%;
+left: 50%;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: #fff;
+}
+#login-target-inner a.create{
+font-family: 'ProximaThin',sans-serif;
+text-decoration: none;
+color:#a1a1a1;
+order:4;
+cursor: pointer;
+text-align: center;
+}
+#login-target-inner a.forgot{
+font-family: 'ProximaThin',sans-serif;
+text-decoration: none;
+text-align: center;
+font-weight: bolder;
+color:#a1a1a1;
+order:5;
+text-align: center;
+}
+#login-target-inner h1{
+order:1;
+font-family: HelveticaThin,sans-serif;
+font-size: 2em;
+letter-spacing: 2px;
+margin-top: 16px;
+text-align: center;
+color:#222;
+}
+#login-target-inner h3{
+order:2;
+font-family: ProximaThin,sans-serif;
+font-size:1em;
+text-align: center;
+margin: 2% 0;
+color: #a1a1a1;
+}
+#text{
+border-bottom: 1px solid #a1a1a1;
+}
+#login-target-inner form{
+order:4;
+display:flex;
+flex-direction:column;
+margin: 0 auto;
+background: transparent;
+width:288px;
+}
+::placeholder{
+font-family: 'ProximaRegular',sans-serif;
+color: #a1a1a1;
+font-size:1em;
+letter-spacing: 0.2px;
+opacity:1;
+}
+form input[type=text]{
+font-family: 'ProximaRegular',sans-serif;
+line-height: 40px;
+outline: none;
+margin-top: 4%;
+padding-left: 7px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #e6e6e6;
+box-shadow: none;
+}
+form input[type=text]:focus{
+background: #e6e6e6;
+border: none;
+border-radius: 5px;
+}
+form input[type=password]{
+font-family: 'ProximaRegular',sans-serif;
+line-height: 40px;
+padding-left: 7px;
+outline: none;
+margin-bottom: 4% 0;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid #e6e6e6;
+}
+form input[type=password]:focus{
+background: #e6e6e6;
+border: none;
+border-radius: 5px; MAKE REMWMBER ME BOX
+}
+form button[type=submit]{
+font-family: 'ProximaRegular',sans-serif;
+line-height: 40px;
+background-color: #006cff;
+color: #fff;
+margin: 4% 0;
+outline: none;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+#remember{
+font-family: 'ProximaRegular',sans-serif;
+margin:0;
+padding:0;
+text-align: center;
+padding-bottom: 2%;
+color: #a1a1a1;
+box-shadow: none;
+}
+#error_alert{
+  order:3;
+  font-family: 'ProximaRegular',sans-serif;
+  color:#cc0000;
+  text-align: center;
+}
+@media screen and (max-width: 685px){
+    #login-target-inner h1{
+      font-size: 1.6em;
+    }
+}

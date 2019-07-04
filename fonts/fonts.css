@@ -1,0 +1,32 @@
+
+
+@font-face {
+font-family: HelveticaThin;
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/HelveticaNeue-Thin.woff') format('woff');
+}
+
+
+
+@font-face {
+font-family: HelveticaLight;
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/HelveticaNeue-LightExt.woff') format('woff');
+}
+
+@font-face {
+font-family: ProximaThin;
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/ProximaNova-Thin.woff') format('woff');
+}
+
+@font-face {
+font-family: ProximaRegular;
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+}
+
