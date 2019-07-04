@@ -4,7 +4,7 @@ A one stop portal for SMITians.
 
 ![Landing](https://i.imgur.com/OiOhelx.png?1)
 
-**Login Page
+**Login Page**
 
 ![Login Page](https://i.imgur.com/RQBtLld.png?1)
 
