@@ -1,6 +1,6 @@
 A one stop portal for SMITians.
 
-**Landing Page (WORK IN PROGRESS for content)
+**Landing Page (WORK IN PROGRESS for content)**
 
 ![Landing](https://i.imgur.com/OiOhelx.png?1)
 
@@ -9,7 +9,7 @@ A one stop portal for SMITians.
 ![Login Page](https://i.imgur.com/RQBtLld.png?1)
 
 **Home (Dashboard) - Roads class routine by default (according to details filled up during signup).
-Can toggle between list and grid view.
+Can toggle between list and grid view.**
 
 ![Home](https://i.imgur.com/z6GDBCJ.png?1)
 
