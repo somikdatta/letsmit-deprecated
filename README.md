@@ -1,6 +1,8 @@
+#This project has been moved for updation - 
+
 A one stop portal for SMITians.
 
-**Landing Page (WORK IN PROGRESS for content)**
+**Landing Page**
 
 ![Landing](https://i.imgur.com/OiOhelx.png?1)
 
