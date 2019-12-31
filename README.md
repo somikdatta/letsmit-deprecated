@@ -1,4 +1,4 @@
-#This project has been moved for updation - 
+# This project has been moved for updation - 
 
 A one stop portal for SMITians.
 
